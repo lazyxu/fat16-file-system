@@ -1,4 +1,5 @@
 # fat16-file-system
+```
 fat16文件系统简单模拟（腊鸡版）
 还有很多相对复杂的情况没考虑，要去赶别的大程了先放一边orz
 不过还是对文件系统挺感兴趣，暑假应该要好好学习一下
@@ -55,3 +56,4 @@ int mfclose(mFILE mfp)
 int clusterRead(byte&, int); //int为簇号 
 int clusterWrite(byte*, int);
 参考C语言的文件操作。利用这些函数直接读写虚拟磁盘文件。虚拟磁盘只能按块(簇)读写，但实际文件可以读一个int、float、byte等。
+```
